@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+#app{
+ 
+}
+.container {
+    padding: 0 !important;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo, #menu, #cart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+background-image: url("/img/background.png");
+}
+
+#products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+#product1, #product2, #product3, #product4, #product5, #product6{
+    height: 530px;
+    width: 350px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(221, 217, 255);
+}
+
+.product-price,.product-description,.product-headline {
+    padding: 0 10px;
+}
+
+.product-price p{
+    text-align: start;
+}
+
+.product-headline h2{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 12.3px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+
+#products img{
+    height: 350px;
+    width: 350px;
+}
+
+.product-button{
+    width: 100px;
+}
+
+#footer{
+    height:100px;
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+#about, #logo, #social{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

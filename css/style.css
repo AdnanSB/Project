@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-#app{
- 
-}
+
 .container {
     padding: 0 !important;
 }
@@ -22,7 +20,8 @@
 }
 
 #main{
-background-image: url("/img/background.png");
+background-image: url("../img/background.png");
+background-size: cover;
 }
 
 #products{
@@ -56,11 +55,6 @@ background-image: url("/img/background.png");
     margin-bottom: 10px;
 }
 
-p{
-    font-size: 12.3px;
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-}
 
 #products img{
     height: 350px;

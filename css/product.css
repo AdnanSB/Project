@@ -1,0 +1,33 @@
+.container {
+    padding: 0 !important;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+#logo, #menu, #cart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    background-color: crimson;
+}
+
+
+#footer{
+    height:100px;
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+#about, #logo, #social{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

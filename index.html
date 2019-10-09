@@ -65,8 +65,8 @@
                     <!--Carousel-->
 
                     <v-row>
-                        <v-carousel>
-                            <v-carousel-item id="c_img" v-for="(item,i) in items" :key="i" :src="item.src"
+                        <v-carousel cycle>
+                            <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"
                                 reverse-transition="fade-transition" transition="fade-transition"></v-carousel-item>
                         </v-carousel>
                     </v-row>
@@ -79,7 +79,7 @@
                     <v-row id="main">
                         <v-col id="products">
                             <v-card class="my-5 mx-auto" max-width="350">
-                                <a id="tt1" href="product1.html">
+                                <a href="productpage.html">
                                     <v-img class="white--text" height="350px"
                                         src="http://lacasanelverde.it/images/placeholder-350x350.jpg">
                                         <v-card-title class="align-end fill-height">Dragon Fruit
@@ -89,15 +89,15 @@
 
                                 <v-card-actions>
                                     <v-btn text color="orange" class="mx-1" @click="messages++">
-                                        Add to card
+                                        Add to cart
                                     </v-btn>
                                     <v-btn text>
-                                        <a id="tt1" href="product1.html">View product</a>
+                                        <a id="tt1" href="productpage.html">View product</a>
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
                             <v-card class="my-5 mx-auto" max-width="350">
-                                <a id="tt1" href="product1.html">
+                                <a id="tt1" href="productpage.html">
                                     <v-img class="white--text" height="350px"
                                         src="http://lacasanelverde.it/images/placeholder-350x350.jpg">
                                         <v-card-title class="align-end fill-height">Dragon Fruit
@@ -107,15 +107,15 @@
 
                                 <v-card-actions>
                                     <v-btn text color="orange" class="mx-1" @click="messages++">
-                                        Add to card
+                                        Add to cart
                                     </v-btn>
                                     <v-btn text>
-                                        <a id="tt1" href="product1.html">View product</a>
+                                        <a id="tt1" href="productpage.html">View product</a>
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
                             <v-card class="my-5 mx-auto" max-width="350">
-                                <a id="tt1" href="product1.html">
+                                <a id="tt1" href="productpage.html">
                                     <v-img class="white--text" height="350px"
                                         src="http://lacasanelverde.it/images/placeholder-350x350.jpg">
                                         <v-card-title class="align-end fill-height">Dragon Fruit
@@ -125,15 +125,15 @@
 
                                 <v-card-actions>
                                     <v-btn text color="orange" class="mx-1" @click="messages++">
-                                        Add to card
+                                        Add to cart
                                     </v-btn>
                                     <v-btn text>
-                                        <a id="tt1" href="product1.html">View product</a>
+                                        <a id="tt1" href="productpage.html">View product</a>
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
                             <v-card class="my-5 mx-auto" max-width="350">
-                                <a id="tt1" href="product1.html">
+                                <a id="tt1" href="productpage.html">
                                     <v-img class="white--text" height="350px"
                                         src="http://lacasanelverde.it/images/placeholder-350x350.jpg">
                                         <v-card-title class="align-end fill-height">Dragon Fruit
@@ -143,15 +143,15 @@
 
                                 <v-card-actions>
                                     <v-btn text color="orange" class="mx-1" @click="messages++">
-                                        Add to card
+                                        Add to cart
                                     </v-btn>
                                     <v-btn text>
-                                        <a id="tt1" href="product1.html">View product</a>
+                                        <a id="tt1" href="productpage.html">View product</a>
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
                             <v-card class="my-5 mx-auto" max-width="350">
-                                <a id="tt1" href="product1.html">
+                                <a id="tt1" href="productpage.html">
                                     <v-img class="white--text" height="350px"
                                         src="http://lacasanelverde.it/images/placeholder-350x350.jpg">
                                         <v-card-title class="align-end fill-height">Dragon Fruit
@@ -161,15 +161,15 @@
 
                                 <v-card-actions>
                                     <v-btn text color="orange" class="mx-1" @click="messages++">
-                                        Add to card
+                                        Add to cart
                                     </v-btn>
                                     <v-btn text>
-                                        <a id="tt1" href="product1.html">View product</a>
+                                        <a id="tt1" href="productpage.html">View product</a>
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
                             <v-card class="my-5 mx-auto" max-width="350">
-                                <a id="tt1" href="product1.html">
+                                <a id="tt1" href="productpage.html">
                                     <v-img class="white--text" height="350px"
                                         src="http://lacasanelverde.it/images/placeholder-350x350.jpg">
                                         <v-card-title class="align-end fill-height">Dragon Fruit
@@ -179,10 +179,10 @@
 
                                 <v-card-actions>
                                     <v-btn text color="orange" class="mx-1" @click="messages++">
-                                        Add to card
+                                        Add to cart
                                     </v-btn>
                                     <v-btn text>
-                                        <a id="tt1" href="product1.html">View product</a>
+                                        <a id="tt1" href="productpage.html">View product</a>
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
@@ -193,17 +193,33 @@
 
                     <!--Row below is our footer-->
 
-                    <v-row id="footer" class="mx-0">
-                        <v-col cols="12" md="4" id="about">
-                                About Us
-                        </v-col>
-                        <v-col cols="12" md="4" id="logo">
-                            logo
-                        </v-col>
-                        <v-col cols="12" md="4" id="social">
-                            this is where you can find us
-                        </v-col>
+                    <v-footer
+                    color="primary lighten-1"
+                    padless
+                  >
+                    <v-row
+                      justify="center"
+                      no-gutters
+                    >
+                      <v-btn
+                        v-for="link in links"
+                        :key="link"
+                        color="white"
+                        text
+                        rounded
+                        class="my-2"
+                      >
+                        {{ link }}
+                      </v-btn>
+                      <v-col
+                        class="primary lighten-2 py-4 text-center white--text"
+                        cols="12"
+                      >
+                        {{ new Date().getFullYear() }} — <medium>Deluxe Fruit</medium>
+                      </v-col>
                     </v-row>
+                  </v-footer>
+
                 </v-container>
             </v-content>
         </v-app>

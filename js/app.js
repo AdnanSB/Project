@@ -18,16 +18,16 @@ var app = new Vue({
     return {
       items: [
         {
-          src: 'img/frontpage5.png' ,
+          src: 'img/frontpage.png',
         },
         {
-          src: 'img/frontpage5.png',
+          src: 'img/slideone.png',
         },
         {
-          src: 'img/frontpage5.png',
+          src: 'img/slidetwo.png',
         },
         {
-          src: 'img/frontpage5.png',
+          src: 'img/slidethree.png',
         },
       ],
       items1: [
@@ -35,6 +35,15 @@ var app = new Vue({
         { title: 'Recipes' },
         { title: 'Nutrients' },
         { title: 'Allergens' },
+      ],
+
+      links: [
+        'Home',
+        'About Us',
+        'Team',
+        'Services',
+        'Blog',
+        'Contact Us',
       ],
 
       show: false,

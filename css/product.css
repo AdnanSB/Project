@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 .container {
     padding: 0 !important;
 }
@@ -37,7 +39,9 @@
 
 #card1 {
     justify-content: center;
+    font-family: 'Muli', sans-serif;
 }
+
 
 #cardText li{
     list-style-type: none;
@@ -45,12 +49,12 @@
 
 
 #card_text p{
-    font-family: 'Libre Baskerville', serif;
     font-size: 20px;
 }
 #buy-btn {
     display: flex;
     justify-content: center;
+    
 }
 
 #footer{

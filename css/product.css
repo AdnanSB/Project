@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
+    background-color: #ff5c8d;
 }
 
 #logo, #menu, #cart{
@@ -14,10 +14,44 @@
     align-items: center;
 }
 
-#main{
-    background-color: crimson;
+#main-p1 {
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
 }
 
+#productCont {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto 0 auto;
+    background-color: whitesmoke;
+}
+
+#tt1 {
+    text-decoration: none;
+    color: #FF9800;
+}
+
+#card1 {
+    justify-content: center;
+}
+
+#cardText li{
+    list-style-type: none;
+}
+
+
+#card_text p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+#buy-btn {
+    display: flex;
+    justify-content: center;
+}
 
 #footer{
     height:100px;

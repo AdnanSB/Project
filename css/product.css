@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 
 .container {
     padding: 0 !important;
@@ -47,14 +50,19 @@
     list-style-type: none;
 }
 
+#card_text p1 {
+    font-style: italic;
+    font-size: 14px;
+}
 
 #card_text p{
-    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
 }
 #buy-btn {
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 10px;
 }
 
 #footer{
